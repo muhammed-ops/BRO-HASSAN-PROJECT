@@ -86,7 +86,7 @@ html body{
     border-radius: 20px;
     display: inline-block;
     box-sizing: border-box;
-    margin-left: 10px;
+    margin-left: 15px;
 
 }
 .content button a {
@@ -97,6 +97,7 @@ html body{
 .content button:hover {
     outline: 2px solid black;
     outline-offset: 3px;
+    transform: scale(1.1);
 }
 
 @media screen and (max-width: 925px) {
