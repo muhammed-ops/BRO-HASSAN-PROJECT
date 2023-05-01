@@ -21,6 +21,9 @@ html body{
     color: white;
     justify-content: space-around;
 }
+.container ion-icon{
+    display: none;
+}
 .container nav p {
     font-size: 2.4rem;
     font-family: 'Roboto', sans-serif;
@@ -139,8 +142,14 @@ html body{
     .content img {
         width: 35%;
     }
-    
-}
-@media screen and (max-width: 450px){
+    .container nav ul{
+        display: none;
+    }
+    .container ion-icon{
+        display: block;
+        color: white;
+        font-size: 25px;
+        font-weight: 800;
+    }
     
 }
