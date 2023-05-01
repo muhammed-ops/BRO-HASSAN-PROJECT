@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+html body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container {
+    width: auto;
+    height: fit-content;
+    border: 2px solid black;
+}
+.container nav {
+    background-color: black;
+    box-sizing: border-box;
+    height: 60px;
+    padding: 0px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+}
+.container nav p {
+    font-size: 2.4rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, black,#332E30);
+    border-top-right-radius: 10px;
+}
+.container ul {
+    margin-left: 350px;
+}
+
+.container ul li {
+    font-size: 21px;
+    display: inline-block;
+    margin-left: 35px;
+}
+.container ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    font-family: 'Pacifico', cursive;
+}
+
+.container ul li a:hover {
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    padding: 5px 20px;
+}
+.content{
+    display:flex;
+    align-items: center;
+    padding: 0px 0px;
+    justify-content: space-between;
+
+}
+.content img {
+    margin-top: 25px;
+    width: 50%;
+}
+
+.contenttext{
+    width: fit-content;
+    padding-left: 75px;
+}
+.contenttext .text {
+    font-size: 40px;
+    line-height: 1.5;
+    font-family: 'Russo One', sans-serif; 
+    font-weight: 900;
+}
+.content button {
+    width: fit-content;
+    white-space: nowrap;
+    border: none;
+    background-color: black;
+    padding: 10px 25px;
+    position: relative;
+    left: -10px;
+    transition: 0.1s;
+    border-radius: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left: 10px;
+
+}
+.content button a {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+.content button:hover {
+    outline: 2px solid black;
+    outline-offset: 3px;
+}
+
+@media screen and (max-width: 925px) {
+    .container nav p{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 905px){
+    .content button {
+        margin-top: 20px;
+    }
+    .container nav p {
+        white-space: nowrap;
+
+    }
+    .container nav ul {
+        white-space: nowrap;
+        margin-left: -30px;
+    }
+    .container nav ul li {
+        display: inline-block;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 550px){
+    .content img {
+        width: 35%;
+        margin-top: -80px;
+    }
+    .contenttext {
+        padding-left: 30px;
+    }
+    .container ul li{
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width: 500px){
+    .content img {
+        width: 35%;
+    }
+    
+}
+@media screen and (max-width: 450px){
+    
+}
