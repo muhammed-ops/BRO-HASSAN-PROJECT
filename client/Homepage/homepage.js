@@ -1,6 +1,7 @@
 var icon = document.querySelector('.container ion-icon')
 var list = document.querySelector('.container nav ul')
 
+
 var toggle = true
 const Menu = () => {
     if(toggle){
